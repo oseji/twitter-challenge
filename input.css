@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-black text-white;
+}
+
+.navBar {
+  @apply flex justify-between align-middle py-3 px-16 mb-16 text-white;
+}
+
+.navLogo {
+  @apply w-36;
+}
+
+.navList {
+  @apply flex gap-5;
+}
+
+.loginSection {
+  @apply flex gap-3;
+}
+
+/*SECTION 1*/
+.section1 {
+  @apply bg-black w-9/12 h-screen mx-auto  flex gap-2;
+}
+
+.textSection {
+  @apply w-1/2 mt-10;
+}
+
+.subHeading {
+  @apply capitalize text-white;
+}
+
+.heading {
+  @apply capitalize text-6xl font-bold text-yellow-200;
+}
+
+.headingSubText {
+  @apply w-96 mb-5 text-white;
+}
+
+.btnExploreMenu {
+  @apply bg-yellow-200 text-black py-2 px-10 font-semibold;
+}
+
+.imageSection {
+  @apply w-1/2;
+}
+
+.heroImg {
+  @apply h-120;
+}
+
+/*SECTION 1*/
+.section2 {
+  @apply h-screen;
+}
