@@ -7,7 +7,7 @@ body {
 }
 
 .navBar {
-  @apply flex justify-between align-middle py-3 px-16  mb-16 text-white;
+  @apply flex justify-between align-middle py-4 px-16  mb-16 text-white text-sm;
 }
 
 .navLogo {
@@ -19,7 +19,11 @@ body {
 }
 
 .loginSection {
-  @apply flex gap-3;
+  @apply flex;
+}
+
+.navLink2 {
+  @apply px-5;
 }
 
 /*SECTION 1*/
@@ -28,7 +32,7 @@ body {
 }
 
 .textSection {
-  @apply w-1/2 mt-10;
+  @apply w-1/2 mt-16;
 }
 
 .subHeading {
@@ -52,7 +56,7 @@ body {
 }
 
 .heroImg {
-  @apply h-120;
+  @apply h-120 ml-auto block;
 }
 
 /*SECTION 2*/
@@ -131,7 +135,7 @@ body {
 }
 
 .section4Img {
-  @apply w-1/2 h-150;
+  @apply h-150;
 }
 
 .section4HeadText {
@@ -172,11 +176,11 @@ body {
 }
 
 .section5Grp {
-  @apply w-10/12 mx-auto pt-10 flex gap-10;
+  @apply w-10/12 mx-auto  flex;
 }
 
 .textGrp {
-  @apply w-1/2 mt-10;
+  @apply w-1/2 mt-10 ml-24;
 }
 
 .numberRow {
@@ -196,7 +200,7 @@ body {
 }
 
 .section5Img {
-  @apply h-100 mx-auto block;
+  @apply h-120 mx-auto block;
 }
 
 /*SECTION 6*/
@@ -234,7 +238,7 @@ body {
 }
 
 .section7Img {
-  @apply h-150 mx-auto block;
+  @apply h-150 ml-auto block;
 }
 
 /*NEWSLETTER*/
@@ -256,7 +260,7 @@ body {
 
 /*FOOTER*/
 footer {
-  @apply flex justify-center gap-5;
+  @apply flex justify-center gap-10 py-20;
 }
 
 .footerCol {
@@ -264,15 +268,19 @@ footer {
 }
 
 .footerHeading {
-  @apply text-center font-semibold;
+  @apply text-center font-semibold mt-4 mb-3;
+}
+
+.footerGericht {
+  @apply text-center font-bold text-yellow-200 text-4xl mb-5;
 }
 
 .footerText {
-  @apply text-center;
+  @apply text-center text-xs;
 }
 
 .socialTags {
-  @apply flex justify-center gap-2;
+  @apply flex justify-center gap-2 mt-5;
 }
 
 .tag {
