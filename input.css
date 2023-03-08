@@ -85,7 +85,7 @@ body {
   @apply text-center mt-14;
 }
 
-.section3head {
+.sectionHeadText {
   @apply text-center text-yellow-200 text-5xl mt-3 mb-10;
 }
 
@@ -110,7 +110,7 @@ body {
 }
 
 .drinkName {
-  @apply text-yellow-200 cursor-pointer;
+  @apply text-yellow-200 cursor-pointer font-semibold;
 }
 
 .drinkSubtext {
@@ -119,4 +119,162 @@ body {
 
 .drinksImg {
   @apply h-96;
+}
+
+/*SECTION 4*/
+.section4 {
+  @apply h-screen;
+}
+
+.section4grp {
+  @apply w-10/12 mx-auto pt-20 flex gap-10;
+}
+
+.section4Img {
+  @apply w-1/2 h-150;
+}
+
+.section4HeadText {
+  @apply text-yellow-200 text-4xl mt-3 mb-7;
+}
+
+.section4Text {
+  @apply w-1/2 mt-10;
+}
+
+.quoteSection {
+  @apply mb-7;
+}
+
+.quoteImg {
+  @apply relative top-5;
+}
+
+.quoteText {
+  @apply indent-14;
+}
+
+.chefName {
+  @apply text-yellow-200 text-2xl;
+}
+
+.chefSignature {
+  @apply mt-5 text-4xl;
+}
+
+/*SECTION 5*/
+.section5 {
+  @apply h-screen;
+}
+
+.curvedText {
+  @apply h-32 ml-20 pt-10;
+}
+
+.section5Grp {
+  @apply w-10/12 mx-auto pt-10 flex gap-10;
+}
+
+.textGrp {
+  @apply w-1/2 mt-10;
+}
+
+.numberRow {
+  @apply flex gap-5;
+}
+
+.numberCard {
+  @apply flex gap-3;
+}
+
+.numberImg {
+  @apply w-16;
+}
+
+.numberHeading {
+  @apply text-yellow-200 text-xl font-semibold;
+}
+
+.section5Img {
+  @apply h-100 mx-auto block;
+}
+
+/*SECTION 6*/
+.section6 {
+  @apply h-auto py-5 px-10 flex gap-10;
+}
+
+.section6Text {
+  @apply w-1/3;
+}
+
+.imgScroll {
+  @apply flex gap-3;
+}
+
+.scrollableImg {
+  @apply h-72;
+}
+
+/*SECTION 7*/
+.section7 {
+  @apply h-screen;
+}
+
+.section7Grp {
+  @apply w-10/12 mx-auto pt-10 flex gap-10;
+}
+
+.section7Text {
+  @apply mt-10;
+}
+
+.openingHours {
+  @apply mb-8;
+}
+
+.section7Img {
+  @apply h-150 mx-auto block;
+}
+
+/*NEWSLETTER*/
+.newsletter {
+  @apply h-auto p-5;
+}
+
+.inputGrp {
+  @apply flex gap-4 w-1/2 mx-auto mt-10;
+}
+
+.inputEmail {
+  @apply w-10/12 text-black;
+}
+
+.inputBtn {
+  @apply bg-yellow-200 text-black mx-auto py-2 px-10 font-semibold hover:transform hover:scale-105 transition ease-in duration-100;
+}
+
+/*FOOTER*/
+footer {
+  @apply flex justify-center gap-5;
+}
+
+.footerCol {
+  @apply flex flex-col;
+}
+
+.footerHeading {
+  @apply text-center font-semibold;
+}
+
+.footerText {
+  @apply text-center;
+}
+
+.socialTags {
+  @apply flex justify-center gap-2;
+}
+
+.tag {
+  @apply w-5 h-5;
 }
