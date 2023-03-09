@@ -2,9 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+/**/
 body {
   @apply bg-black text-white;
 }
+
+.sectionHeadText {
+  @apply font-Cormorant text-center text-yellow-200 text-5xl mt-3 mb-10;
+}
+
+.btn {
+  @apply bg-yellow-200 text-black py-2 px-10 mt-5 font-semibold hover:transform hover:scale-105 transition ease-in duration-100;
+}
+/**/
 
 .navBar {
   @apply flex justify-between align-middle py-4 px-16  mb-16 text-white text-sm;
@@ -36,19 +46,15 @@ body {
 }
 
 .subHeading {
-  @apply capitalize text-white;
+  @apply font-Cormorant capitalize text-white;
 }
 
 .heading {
-  @apply capitalize text-6xl font-bold text-yellow-200;
+  @apply font-Cormorant capitalize text-6xl font-bold text-yellow-200;
 }
 
 .headingSubText {
   @apply w-96 mb-5 text-white;
-}
-
-.btn {
-  @apply bg-yellow-200 text-black py-2 px-10 mt-5 font-semibold hover:transform hover:scale-105 transition ease-in duration-100;
 }
 
 .imageSection {
@@ -73,7 +79,7 @@ body {
 }
 
 .head2 {
-  @apply text-yellow-200 text-5xl mb-9;
+  @apply font-Cormorant text-yellow-200 text-5xl mb-9;
 }
 
 .knive {
@@ -87,10 +93,6 @@ body {
 
 .section3TopText {
   @apply text-center mt-14;
-}
-
-.sectionHeadText {
-  @apply text-center text-yellow-200 text-5xl mt-3 mb-10;
 }
 
 .section3Grp {
@@ -139,7 +141,7 @@ body {
 }
 
 .section4HeadText {
-  @apply text-yellow-200 text-4xl mt-3 mb-7;
+  @apply font-Cormorant font-semibold text-yellow-200 text-4xl mt-3 mb-7;
 }
 
 .section4Text {
@@ -159,11 +161,11 @@ body {
 }
 
 .chefName {
-  @apply text-yellow-200 text-2xl;
+  @apply font-Cormorant text-yellow-200 text-2xl;
 }
 
 .chefSignature {
-  @apply mt-5 text-4xl;
+  @apply font-homemadeApple mt-5 text-4xl;
 }
 
 /*SECTION 5*/
@@ -205,7 +207,7 @@ body {
 
 /*SECTION 6*/
 .section6 {
-  @apply h-auto py-5 px-10 flex gap-10;
+  @apply h-auto p-10 flex gap-10;
 }
 
 .section6Text {
@@ -243,7 +245,7 @@ body {
 
 /*NEWSLETTER*/
 .newsletter {
-  @apply h-auto p-5;
+  @apply h-auto py-10 px-5;
 }
 
 .inputGrp {
@@ -268,19 +270,19 @@ footer {
 }
 
 .footerHeading {
-  @apply text-center font-semibold mt-4 mb-3;
+  @apply font-Cormorant text-xl text-center font-semibold mt-4 mb-3;
 }
 
 .footerGericht {
-  @apply text-center font-bold text-yellow-200 text-4xl mb-5;
+  @apply font-Cormorant text-center font-bold text-yellow-200 text-4xl mb-5;
 }
 
 .footerText {
-  @apply text-center text-xs;
+  @apply text-center text-sm;
 }
 
 .socialTags {
-  @apply flex justify-center gap-2 mt-5;
+  @apply flex justify-center gap-2 mt-5 mb-20;
 }
 
 .tag {
